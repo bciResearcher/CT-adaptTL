@@ -22,26 +22,28 @@ It is recommended to create a virtual environment with python version 3.6 and ru
 
 You can try different mirror sources if you encounter version problems.
 
-Obtain the raw dataset
+## Obtain the raw dataset
 Download the raw dataset from the resources above, and save them to the same folder. Please download the ME/MI data in mat file format
-Data alignment
+
+## Data alignment
 For HGD run：
 
 For openBMI run：
 
-Model pre-training
+## Model pre-training
 To pre-train the model with HGD, run:
 
-This process is likely to take some time. We have provided the pre-trained models used in paper in above resources .
-Adaptive fine-tuning
+This process is likely to take some time. We have provided the pre-trained models used in paper in above resources.
+
+## Adaptive fine-tuning
 To fine-tune the pre-trained model with MI dataset in scheme1 , run:
 
 This process is likely to take some time. We have provided the fine-tuned models for each subject in openBMI dataset used in paper in above resources .
 
-Model explaining
+## Model explaining
 To explain the fine-tuned models with MI test data in scheme1, run:
 
-Results
+## Results
 The classification results for our method and other competing methods are as follows:
 
 
