@@ -43,10 +43,12 @@ To fine-tune the pre-trained model with openBMI dataset, run:
 
 To fine-tune the pre-trained model with GIST dataset, run:
 
-This process is likely to take some time. We have provided the fine-tuned models for each subject used in paper in above resources .
+This process is likely to take some time. We have provided the fine-tuned models for each subject used in paper in above [resources](https://github.com/yzmmmzjhu/CT-adaptTL#fine-tuned-models) .
 
 ## Model explaining
-To explain the fine-tuned models with MI test data in scheme1, run:
+To explain the fine-tuned models with openBMI dateset, run:
+
+To explain the fine-tuned models with GIST dateset, run:
 
 ## Results
 The classification results for our method and other competing methods are as follows:
