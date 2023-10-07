@@ -52,6 +52,11 @@ To explain the fine-tuned models with GIST dateset, run:
 
 ## Results
 The classification results for our method and other competing methods are as follows:
+| Align `left`   | center align |   Align right |
+| :------------- | :----------: | ------------: |
+| `left`-aligned |   centered   | right-aligned |
+| `左`对齐        |    中对齐     |         右对齐 |
+
 
 
 
