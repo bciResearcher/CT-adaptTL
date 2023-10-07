@@ -52,10 +52,11 @@ To explain the fine-tuned models with GIST dateset, run:
 
 ## Results
 The classification results for our method and other competing methods are as follows:
-| Align `left`   | center align |   Align right |
-| :------------- | :----------: | ------------: |
-| `left`-aligned |   centered   | right-aligned |
-| `左`对齐        |    中对齐     |         右对齐 |
+| Methodology  | Mean (SD) |  Median | Range (Max-Min)|
+| :------------- | :---------- | ------------ | ------------ |
+|Subject-Specific |73.48(16.16) |69.50 |53.00(100.00-47.00) |
+|Subject-Independent |69.00(15.58) |64.50 |51.00(99.00-48.00) |
+|Subject-Adaptive |76.59(15.93) |74.50 |51.00(100.00-49.00) |
 
 
 
