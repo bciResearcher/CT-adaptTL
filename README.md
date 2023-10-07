@@ -50,13 +50,21 @@ To explain the fine-tuned models with openBMI dateset, run:
 
 To explain the fine-tuned models with GIST dateset, run:
 
-## Results
+# Results
 The classification results for our method and other competing methods are as follows:
+## openBMI
 | Methodology  | Mean (SD) |  Median | Range (Max-Min)|
 | :------------- | :---------- | ------------ | ------------ |
 |Subject-Specific |73.48(16.16) |69.50 |53.00(100.00-47.00) |
 |Subject-Independent |69.00(15.58) |64.50 |51.00(99.00-48.00) |
 |Subject-Adaptive |76.59(15.93) |74.50 |51.00(100.00-49.00) |
+
+## GIST
+| Methodology  | Mean (SD) |  Median | Range (Max-Min)|
+| :------------- | :---------- | ------------ | ------------ |
+|Subject-Specific |61.48(12.84) |57.50 |55.00(99.00-44.00) |
+|Subject-Independent |58.96(10.39) |56.50 |39.00(82.00-43.00) |
+|Subject-Adaptive |69.77(12.54) |67.00 |51.00(100.00-49.00) |
 
 
 
