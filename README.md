@@ -20,6 +20,8 @@ It is recommended to create a virtual environment with python version 3.6 and ru
 
     pip install -r requirements.txt
 
+You can try different mirror sources if you encounter version problems.
+
 Obtain the raw dataset
 Download the raw dataset from the resources above, and save them to the same folder. Please download the ME/MI data in mat file format
 Data alignment
