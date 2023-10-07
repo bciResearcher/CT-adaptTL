@@ -5,3 +5,4 @@ This is the PyTorch implementation of the **Explainable Cross-Task Adaptive Tran
 The aim of this work is to explore the feasibility and interpretability of cross-task knowledge transfer between MI and ME. This can largely relax the constraint of training samples for MI BCIs and thus has important practical sense.
 # Resources
 ## Datasets
+HGD: [Link](https://gin.g-node.org/robintibor/high-gamma-dataset)
