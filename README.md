@@ -26,12 +26,15 @@ You can try different mirror sources if you encounter version problems.
 Download the raw dataset from the [resources](https://github.com/yzmmmzjhu/CT-adaptTL/blob/main/README.md#datasets) above, and save them to the same folder. Please download the ME/MI data in mat file format.
 
 ## Data alignment
-For HGD run：
+When HGD is the source domain and openBMI is the target domain,run
+        
+When HGD is the source domain and GIST is the target domain, run
 
-For openBMI run：
 
 ## Model pre-training
-To pre-train the model with HGD, run:
+When openBMI is the target domain, run 
+
+When GIST is the target domain, run 
 
 This process is likely to take some time. We have provided the pre-trained models used in paper in above resources.
 
