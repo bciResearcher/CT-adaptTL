@@ -66,9 +66,13 @@ The classification results for our method and other competing methods are as fol
 |Subject-Independent |58.96(10.39) |56.50 |39.00(82.00-43.00) |
 |Subject-Adaptive |69.77(12.54) |67.00 |51.00(100.00-49.00) |
 
+# Cite:
+If used, please cite:
 
+Minmin Miao, Zhong Yang, Hong Zeng, Wenbin Zhang, Baoguo Xu, Wenjun Hu. "Explainable Cross-Task Adaptive Transfer Learning for Motor Imagery EEG Classification",submit to Journal of Neural Engineering, 2023. 
 
+# Acknowledgment
+We thank Mane ZHANG20211 et al for their wonderful works.
 
-
-
+[](https://doi.org/10.1016/j.neunet.2020.12.013)
 
