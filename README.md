@@ -18,7 +18,7 @@ GIST:[Link](http://dx.doi.org/10.5524/100295)
 ## Install the dependencies
 It is recommended to create a virtual environment with python version 3.6 and running the following:
 
-  pip install -r requirements.txt
+    pip install -r requirements.txt
 
 Obtain the raw dataset
 Download the raw dataset from the resources above, and save them to the same folder. Please download the ME/MI data in mat file format
