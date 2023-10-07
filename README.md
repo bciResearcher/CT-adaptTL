@@ -36,12 +36,14 @@ When openBMI is the target domain, run
 
 When GIST is the target domain, run 
 
-This process is likely to take some time. We have provided the pre-trained models used in paper in above resources.
+This process is likely to take some time. We have provided the pre-trained models used in paper in above [resources](https://github.com/yzmmmzjhu/CT-adaptTL#pre-trained-models).
 
 ## Adaptive fine-tuning
-To fine-tune the pre-trained model with MI dataset in scheme1 , run:
+To fine-tune the pre-trained model with openBMI dataset, run:
 
-This process is likely to take some time. We have provided the fine-tuned models for each subject in openBMI dataset used in paper in above resources .
+To fine-tune the pre-trained model with GIST dataset, run:
+
+This process is likely to take some time. We have provided the fine-tuned models for each subject used in paper in above resources .
 
 ## Model explaining
 To explain the fine-tuned models with MI test data in scheme1, run:
