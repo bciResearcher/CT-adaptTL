@@ -39,11 +39,11 @@ def get_multi_data_sor(subjs):
 
 # data load
 
-X_HGD, Y_HGD = get_multi_data_sor(np.arange(1, 15, 1))   #X_HGD 命名不好！6742要打印检查，然后再注释掉！  √
+X_HGD, Y_HGD = get_multi_data_sor(np.arange(1, 15, 1))  
 # print(X_HGD.shape)
 # pretrained model save path
 
-outpath = './pretrain14_54/'     #最终版的目录名字要再三确认
+outpath = './pretrain14_54/'     
 
 
 def evaluate(model, x, y):
