@@ -23,7 +23,12 @@ It is recommended to create a virtual environment with python version 3.6 and ru
 You can try different mirror sources if you encounter version problems.
 
 ## Obtain the raw dataset
-Download the raw dataset from the [resources](https://github.com/yzmmmzjhu/CT-adaptTL/blob/main/README.md#datasets) above, and save them to the same folder. Please download the ME/MI data in mat file format.
+Download the raw dataset from the [resources](https://github.com/yzmmmzjhu/CT-adaptTL/blob/main/README.md#datasets)(Please download the ME/MI data in mat file format) above, and save them to the same folder. 
+
+>datasets/GIST
+>>/s01.mat
+>>/s02.mat
+>>...
 
 ## Data alignment
 When HGD is the source domain and openBMI is the target domain,run
