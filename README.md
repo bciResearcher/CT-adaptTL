@@ -18,6 +18,7 @@ For GIST: [Link](https://github.com/yzmmmzjhu/CT-adaptTL/tree/main/code_GIST/pre
 
 ## Sample fine-tuned models
 
+For openBMI: [Link](https://github.com/yzmmmzjhu/CT-adaptTL/tree/main/code_openBMI/adapt/model_54_)
 For GIST: [Link](https://github.com/yzmmmzjhu/CT-adaptTL/tree/main/code_GIST/adapt/model_52_)
 
 # Instructions
