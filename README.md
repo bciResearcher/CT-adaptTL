@@ -25,10 +25,8 @@ You can try different mirror sources if you encounter version problems.
 ## Obtain the raw dataset
 Download the raw dataset from the [resources](https://github.com/yzmmmzjhu/CT-adaptTL/blob/main/README.md#datasets)(Please download the ME/MI data in mat file format) above, and save them to the same folder. 
 
->datasets/GIST
->>/s01.mat
->>/s02.mat
->>...
+        datasets/GIST
+                    /s01.mat
 
 ## Data alignment
 When HGD is the source domain and openBMI is the target domain,run
