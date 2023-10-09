@@ -27,8 +27,11 @@ Download the raw dataset from the [resources](https://github.com/yzmmmzjhu/CT-ad
 
 ## Data alignment
 When HGD is the source domain and openBMI is the target domain,run
+
         PROCESS14_54.py
+        
         process54.py
+        
 When HGD is the source domain and GIST is the target domain, run
 
 
