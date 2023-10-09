@@ -61,7 +61,7 @@ When HGD is the source domain and openBMI is the target domain,run
         
         process54.py
         
-Create folders **DATA14_54** and **DATA54** in the process directory to store the processed data
+Create folders **DATA14_54** and **DATA54** in the **process** directory to store the processed data
 
 When HGD is the source domain and GIST is the target domain, run
 
@@ -69,7 +69,7 @@ When HGD is the source domain and GIST is the target domain, run
         
         process52.py
         
-Create folders **DATA14_52** and **DATA52** in the process directory to store the processed data
+Create folders **DATA14_52** and **DATA52** in the **process** directory to store the processed data
 
 ## Model pre-training
 When openBMI is the target domain, run 
