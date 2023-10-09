@@ -34,6 +34,9 @@ When HGD is the source domain and openBMI is the target domain,run
         
 When HGD is the source domain and GIST is the target domain, run
 
+       PROCESS14_52.py
+        
+        process52.py
 
 ## Model pre-training
 When openBMI is the target domain, run 
