@@ -13,6 +13,7 @@ GIST:[Link](http://dx.doi.org/10.5524/100295)
 
 ## Sample pre-trained models
 
+For openBMI: [Link](https://github.com/yzmmmzjhu/CT-adaptTL/tree/main/code_openBMI/pretrain/pretrain14_54)
 For GIST: [Link](https://github.com/yzmmmzjhu/CT-adaptTL/tree/main/code_GIST/pretrain/pretrain14_52)
 
 ## Sample fine-tuned models
