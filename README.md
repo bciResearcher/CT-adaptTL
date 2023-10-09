@@ -97,7 +97,7 @@ To fine-tune the pre-trained model with GIST dataset, run:
 
         subject_adaptive14_54_sin.py
 
-This process is likely to take some time. We have provided the fine-tuned models for each subject used in paper in above [resources](https://github.com/yzmmmzjhu/CT-adaptTL#fine-tuned-models) .
+This process is likely to take some time. We have provided sample fine-tuned models for each subject in above [resources](https://github.com/yzmmmzjhu/CT-adaptTL#fine-tuned-models) .
 
 ## Model explaining
 To explain the fine-tuned models with openBMI dateset, run:
