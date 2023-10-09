@@ -14,7 +14,7 @@ from scipy.signal import butter, lfilter
 from scipy import signal
 
 # openBMI source data path
-src = '../../datasets/openBMI'         #设置伪目录，原始数据存储的位置加以明确  √
+src = '../../datasets/openBMI'      
 # save path
 out = './DATA54'
 
@@ -63,7 +63,7 @@ def get_data(sess, subj):
 # bandpass filter
     X = butter_bandpass_filter(X, 8, 30, 500)
 
-    Y1 = (raw['EEG_MI_train']['y_dec'][0][0][0] - 1)     #再次检查下right为0，left为1      √
+    Y1 = (raw['EEG_MI_train']['y_dec'][0][0][0] - 1)    
     Y2 = (raw['EEG_MI_test']['y_dec'][0][0][0] - 1)
     Y = np.concatenate((Y1, Y2), axis=0)
     return X, Y
