@@ -46,7 +46,7 @@ def load_bbci_data(filename, low_cut_hz,debug=False):
     cnt = loader.load()
     print(cnt.info["sfreq"])
 
-    marker_def = OrderedDict([('Right Hand', [1]), ('Left Hand', [2])])       #再次检查下right为0，left为1     √
+    marker_def = OrderedDict([('Right Hand', [1]), ('Left Hand', [2])])     
 
     # pick sensors
     C_sensors = ['FC5', 'FC3', 'FC1', 'FC2', 'FC4', 'FC6', 'C5', 'C3', 'C1', 'Cz', 'C2', 'C4', 'C6', 'CP5', 'CP3',
@@ -72,10 +72,10 @@ def load_bbci_data(filename, low_cut_hz,debug=False):
 
 if __name__ == '__main__':
     # generate data path in device
-    out = './DATA14_54'     #从头到尾，验证一下。
+    out = './DATA14_54'    
     low_cut_hz = 0.5
     # source data path in device
-    data_folder = '../../datasets/HGD'       #设置伪目录，原始数据存储的位置加以明确
+    data_folder = '../../datasets/HGD'       
     with h5py.File(pjoin(out, 'ku_mi_smt.h5'), 'w') as f:
         for num in tqdm(range(1, 15)):
             subject_id = num
