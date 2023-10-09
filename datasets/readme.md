@@ -1,6 +1,6 @@
 # Three different datasets save in here like [This](https://github.com/yzmmmzjhu/CT-adaptTL#obtain-the-raw-dataset):
 
-    datasets/GIST/s01.mat
+            datasets/GIST/s01.mat
                          /s02.mat
                          /...
     
