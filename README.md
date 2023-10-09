@@ -29,7 +29,7 @@ It is recommended to create a virtual environment with python version 3.6 and ru
 
     pip install -r requirements.txt
 
-You can try different download sources if you encounter version problems.
+You can choose a suitable download source to ensure the success of the download.
 
 ## Obtain the raw dataset
 Download the raw dataset from the [resources](https://github.com/yzmmmzjhu/CT-adaptTL/blob/main/README.md#datasets) above(Please download the ME/MI data in mat file format), and save them to the same folder. 
