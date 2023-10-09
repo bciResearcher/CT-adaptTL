@@ -11,8 +11,8 @@ openBMI: [Link](http://dx.doi.org/10.5524/100542)
 
 GIST:[Link](http://dx.doi.org/10.5524/100295)
 
-## Pre-trained models
-## Fine-tuned models
+## Sample pre-trained models
+## Sample fine-tuned models
 
 # Instructions
 ## Install the dependencies
@@ -34,29 +34,60 @@ When HGD is the source domain and openBMI is the target domain,run
         
 When HGD is the source domain and GIST is the target domain, run
 
-       PROCESS14_52.py
+        PROCESS14_52.py
         
         process52.py
 
 ## Model pre-training
 When openBMI is the target domain, run 
 
+        base14_54.py
+        
 When GIST is the target domain, run 
 
-This process is likely to take some time. We have provided the pre-trained models used in paper in above [resources](https://github.com/yzmmmzjhu/CT-adaptTL#pre-trained-models).
+        base14.py
+
+This process is likely to take some time. We have provided sample pre-trained models in above [resources](https://github.com/yzmmmzjhu/CT-adaptTL#pre-trained-models).
+
+## Subject-specfic
+When openBMI is the target domain, run 
+
+        specific_54.py
+        
+When GIST is the target domain, run 
+
+        specific_52.py
+
+## Subject-independent
+When openBMI is the target domain, run 
+
+        subject_independent14_54.py     
+        
+When GIST is the target domain, run 
+
+        subject_independent14_52.py
+
 
 ## Adaptive fine-tuning
 To fine-tune the pre-trained model with openBMI dataset, run:
 
+        subject_adaptive14_54_sin.py
+
 To fine-tune the pre-trained model with GIST dataset, run:
+
+        subject_adaptive14_54_sin.py
 
 This process is likely to take some time. We have provided the fine-tuned models for each subject used in paper in above [resources](https://github.com/yzmmmzjhu/CT-adaptTL#fine-tuned-models) .
 
 ## Model explaining
 To explain the fine-tuned models with openBMI dateset, run:
 
+        shap_value_adjust_54.py     
+        
 To explain the fine-tuned models with GIST dateset, run:
 
+        shap_value_adjust_52.py
+        
 # Results
 The classification results for our method and other competing methods are as follows:
 ## openBMI
