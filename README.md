@@ -25,8 +25,25 @@ You can try different mirror sources if you encounter version problems.
 ## Obtain the raw dataset
 Download the raw dataset from the [resources](https://github.com/yzmmmzjhu/CT-adaptTL/blob/main/README.md#datasets)(Please download the ME/MI data in mat file format) above, and save them to the same folder. 
 
-        datasets/GIST
-                    /s01.mat
+        datasets/GIST/s01.mat
+                     /s02.mat
+                     /...
+
+        datasets/openBMI/sess01_subj01_EEG_MI.mat
+                        /sess01_subj02_EEG_MI.mat
+                        /...
+                        /sess02_subj01_EEG_MI.mat
+                        /sess02_subj02_EEG_MI.mat
+                        /...
+
+        datasets/HGD/test
+                        -/1.mat
+                        -/2.mat
+                        -/...
+                    /train
+                        -/1.mat
+                        -/2.mat
+                        -/...
 
 ## Data alignment
 When HGD is the source domain and openBMI is the target domain,run
