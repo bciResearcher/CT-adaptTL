@@ -23,9 +23,9 @@ class deep(nn.Module):
 
         )
 
-    def forward(self, x):  # (64, 1, 1000, 62)
-        out = self.conv1(x)  # (64 , 25, 991, 62)
-        out = self.conv1_1(out)  # (64 , 25, 991, 1)
+    def forward(self, x): 
+        out = self.conv1(x) 
+        out = self.conv1_1(out)  
         out = F.elu(self.bn1(out))
         out = F.dropout(self.pool1(out), p=0.5,training=self.training)
         out = out.view(out.size(0), -1)
