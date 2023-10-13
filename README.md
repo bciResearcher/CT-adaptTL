@@ -119,7 +119,7 @@ To explain the fine-tuned models with openBMI dateset, run:
         
 To explain the fine-tuned models with GIST dateset, run:
 
-        shap_value_adjust_52.py
+        shap_value_adjust.py
         
 # Results
 The classification results for our method and other competing methods are as follows:
