@@ -122,7 +122,7 @@ To explain the fine-tuned models with GIST dateset, run:
         shap_value_adjust.py
         
 # Results
-The classification results for our method and other competing methods are as follows:
+The classification results for our method in three scenarios are as follows:
 ## openBMI
 | Methodology  | Mean (SD) |  Median | Range (Max-Min)|
 | :------------- | :---------- | ------------ | ------------ |
