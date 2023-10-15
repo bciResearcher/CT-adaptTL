@@ -143,7 +143,8 @@ If used, please cite:
 Minmin Miao, Zhong Yang, Hong Zeng, Wenbin Zhang, Baoguo Xu, Wenjun Hu. "Explainable Cross-Task Adaptive Transfer Learning for Motor Imagery EEG Classification",submit to Journal of Neural Engineering, 2023. 
 
 # Acknowledgment
-We thank Kaishuo Zhang et al for their wonderful works.
+We thank Kaishuo Zhang et al and Schirrmeister et al for their wonderful works.
 
 Zhang, Kaishuo, et al. "Adaptive transfer learning for EEG motor imagery classification with deep convolutional neural network." Neural Networks 136 (2021): 1-10.https://doi.org/10.1016/j.neunet.2020.12.013
 
+Schirrmeister, Robin Tibor, et al. "Deep learning with convolutional neural networks for EEG decoding and visualization." Human brain mapping 38.11 (2017): 5391-5420. https://doi.org/10.1002/hbm.23730
