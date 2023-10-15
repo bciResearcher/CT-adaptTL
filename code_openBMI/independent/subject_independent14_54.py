@@ -61,7 +61,7 @@ for n in range(54):
     target_loader2 = DataLoader(dataset=target_set2, batch_size=40, shuffle=True)
 
     model = deep()
-    checkpoint = torch.load(pjoin(outpath, 'model_cv{}.pt'.format(2)))
+    checkpoint = torch.load(pjoin(outpath, 'model_cv{}.pt'.format(4)))
     model.load_state_dict(checkpoint)
     model.to(device)
     acc[n] = evaluate(model, T_X_test, T_Y_test)
