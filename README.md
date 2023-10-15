@@ -145,5 +145,5 @@ Minmin Miao, Zhong Yang, Hong Zeng, Wenbin Zhang, Baoguo Xu, Wenjun Hu. "Explain
 # Acknowledgment
 We thank Kaishuo Zhang et al for their wonderful works.
 
-https://doi.org/10.1016/j.neunet.2020.12.013
+Zhang, Kaishuo, et al. "Adaptive transfer learning for EEG motor imagery classification with deep convolutional neural network." Neural Networks 136 (2021): 1-10.https://doi.org/10.1016/j.neunet.2020.12.013
 
