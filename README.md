@@ -80,7 +80,7 @@ When GIST is the target domain, run
 
         base14.py
 
-This process is likely to take some time. We have provided sample pre-trained models in above [resources](https://github.com/yzmmmzjhu/CT-adaptTL#pre-trained-models).
+This process is likely to take some time. We have provided sample pre-trained models in above [resources](https://github.com/yzmmmzjhu/CT-adaptTL#sample-pre-trained-models)
 
 ## Subject-specfic
 When openBMI is the target domain, run 
