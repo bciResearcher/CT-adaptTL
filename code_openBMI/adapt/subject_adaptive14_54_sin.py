@@ -76,7 +76,7 @@ for n in range(54):
 
     model = deep()
     # load pretrained model
-    checkpoint = torch.load(pjoin(outpath, 'model_cv{}.pt'.format(0)))   # select and use the optimal model
+    checkpoint = torch.load(pjoin(outpath, 'model_cv{}.pt'.format(4)))   # select and use the optimal model
     model.load_state_dict(checkpoint)
     model.to(device)
     optimizer = torch.optim.SGD(model.parameters(), lr=0.01, momentum=0.4)
