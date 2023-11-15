@@ -140,7 +140,7 @@ The classification results for our method in three scenarios are as follows:
 # Cite:
 If used, please cite:
 
-"Explainable Cross-Task Adaptive Transfer Learning for Motor Imagery EEG Classification",submit to Journal of Neural Engineering, 2023. 
+Miao M, Yang Z, Zeng H, Zhang W, Xu B, Hu W. Explainable cross-task adaptive transfer learning for motor imagery EEG classification. Journal of Neural Engineering. 2023. DOI 10.1088/1741-2552/ad0c61
 
 # Acknowledgment
 We thank Kaishuo Zhang et al and Schirrmeister et al for their wonderful works.
